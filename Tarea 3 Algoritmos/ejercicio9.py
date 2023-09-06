@@ -1,0 +1,8 @@
+fecha = input("Introduce tu fecha de nacimiento en formato dd/mm/aaaa: ")
+dia, mes, anio = fecha.split('/')
+dia = int(dia)
+mes = int(mes)
+anio = int(anio)
+print("Día:", dia)
+print("Mes:", mes)
+print("Año:", anio)
